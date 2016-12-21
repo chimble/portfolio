@@ -3,22 +3,47 @@
     <head>
         <meta charset="utf-8">
         <title></title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+            rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="static/index.css">
+
     </head>
     <body>
+        <nav id = 'navbarboys' class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="http://www.twitter.com/cameronmoeller">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                    <a class="navbar-brand" href="http://www.github.com/chimble">
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
+                    <a class="navbar-brand" href="https://plus.google.com/u/0/+cameronmoeller">
+                        <i class="fa fa-google-plus" aria-hidden="true"></i>
+                    </a>
+                    <a class="navbar-brand" href="https://www.linkedin.com/in/cameron-moeller-33811733">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
         <h2>Chimble's Portfolio</h2>
-        <button id="myBtn"><a href="chimble_resume.pdf">Resume</a></button>
+        <button id="myBtn">resume</button>
         <div id="myModal" class="modal">
             <div class="modal-content">
-                <span class="close">&times;</span>
-
+                    <span class="close">&times;</span>
+                    <object type="application/pdf" data="chimble_resume.pdf" width="80%" height="800"></object>
             </div>
         </div>
-        <h4>Resume</h4>
         <h4><a href='http://www.github.com/chimble'>My Github</a></h4>
-        <h4>Resume</h4>
-
+        <footer>
+            <p>Contact information: <a href="mailto:cameron.moeller@gmail.com">cameron.moeller@gmail.com</a></p>
+        </footer>
     </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
     <script type="text/javascript" src="static/index.js"></script>
 </html>
