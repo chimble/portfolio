@@ -1,7 +1,12 @@
+#backgroundpic{
+    height: 100%;
+    width: 100%;
+}
 body{
     background-image: url("http://yeisystems.com/wp-content/uploads/2015/05/Dark-Grey-Background-Best-Wallpaper-Gallery-dji6x-Free.jpg");
-    text-align: center
+    text-align: center;
 }
+
 
 h2{
     color: black;
@@ -10,6 +15,10 @@ h2{
 p{
     color: black;
     font-size: 14px;
+}
+
+footer{
+    float: bottom; 
 }
 /* The Modal (background) */
 .modal {
@@ -50,7 +59,28 @@ p{
 }
 
 #navbarboys{
+    margin-bottom: 0px;
     border: 0px;
+}
+
+#twitterzzz{
+    color: #0084b4;
+}
+
+#googlezzz{
+    color: #d34836;
+}
+
+#linkedinzzz{
+    color: #0077B5;
+}
+
+#githubzzz{
+    color: white;
+}
+
+#myBtn{
+    float: bottom;
 }
 
 .container-fluid{
