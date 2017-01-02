@@ -1,5 +1,5 @@
 #backgroundpic{
-    height: 100%;
+    height: 90%;
     width: 100%;
 }
 body{
@@ -18,8 +18,15 @@ p{
 }
 
 footer{
-    float: bottom; 
+    float: bottom;
+    float: right;
 }
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
@@ -80,12 +87,61 @@ footer{
 }
 
 #myBtn{
+    border-radius: 20px;
     float: bottom;
 }
 
-.container-fluid{
-    background-color: black;
+#gitbutt{
+    border-radius: 20px;
+    float: bottom;
 }
+
+#tv {
+  position: relative;
+  width: 200px;
+  height: 150px;
+  margin: 20px 0;
+  background: black;
+  border-radius: 50% / 10%;
+  color: white;
+  text-align: center;
+  text-indent: .1em;
+}
+
+#tv:hover {
+    box-shadow: 0 0 5px #fff;
+    z-index: 1;
+    transform: scale(3);
+    border: 1px solid black;
+}
+
+.imgdescription {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+
+  /*remove comment if you want a gradual transition between states
+  -webkit-transition: visibility opacity 0.2s;
+  */
+}
+
+
+.img:hover .imgdescription {
+    top: 550;
+    bottom: 550;
+    left: 500;
+    right: 500;
+    visibility: visible;
+    opacity: 1;
+    z-index: 1;
+
+}
+
 .navbar-header{
     float: right;
 }
